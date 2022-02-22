@@ -8,13 +8,13 @@ import os
 app = Flask(__name__)
 
 color_codes = {
-    "red": "#e74c3c",
-    "green": "#16a085",
-    "blue": "#2980b9",
-    "pink": "#be2edd",
-    "yellow": "#ffff00",
+#    "red": "#e74c3c",
+#    "green": "#16a085",
+#    "blue": "#2980b9",
+#    "pink": "#be2edd",
+#    "yellow": "#ffff00",
     "white": "#ffffff",
-    "purple": "#7d3c98"
+#    "purple": "#7d3c98"
 }
 
 color = os.environ.get('APP_COLOR') or random.choice(["red","green"])
