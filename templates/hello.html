@@ -1,12 +1,14 @@
 <!doctype html>
-<title>Hello from Openshift Dev App</title>
+<title>Openshift Dev App</title>
 <body style="background: {{ color }};"></body>
 <div style="color: #000000;
     text-align:  center;
     height: 90px;
     vertical-align:  middle;">
 {% if name %}
-  <h1>Hello from Openshift Dev App!</h1>
+  <h1>Hello from Openshift Dev App!
+  <br>The application is running promperly if you see this message
+  </h1>
 {% else %}
   <h1>Hello, World!</h1>
 {% endif %}
